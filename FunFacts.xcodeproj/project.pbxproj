@@ -14,6 +14,7 @@
 		282103F41AB16B4E00B00198 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282103F31AB16B4E00B00198 /* Images.xcassets */; };
 		282103F71AB16B4E00B00198 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282103F51AB16B4E00B00198 /* LaunchScreen.xib */; };
 		282104031AB16B4E00B00198 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282104021AB16B4E00B00198 /* FunFactsTests.m */; };
+		284802B61AB1872300320509 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 284802B51AB1872300320509 /* FactBook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		282103FC1AB16B4E00B00198 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		282104011AB16B4E00B00198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		282104021AB16B4E00B00198 /* FunFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsTests.m; sourceTree = "<group>"; };
+		284802B41AB1872300320509 /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FactBook.h; path = ../FactBook.h; sourceTree = "<group>"; };
+		284802B51AB1872300320509 /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FactBook.m; path = ../FactBook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				282103EB1AB16B4E00B00198 /* AppDelegate.m */,
 				282103ED1AB16B4E00B00198 /* ViewController.h */,
 				282103EE1AB16B4E00B00198 /* ViewController.m */,
+				284802B41AB1872300320509 /* FactBook.h */,
+				284802B51AB1872300320509 /* FactBook.m */,
 				282103F01AB16B4E00B00198 /* Main.storyboard */,
 				282103F31AB16B4E00B00198 /* Images.xcassets */,
 				282103F51AB16B4E00B00198 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				282103EF1AB16B4E00B00198 /* ViewController.m in Sources */,
 				282103EC1AB16B4E00B00198 /* AppDelegate.m in Sources */,
+				284802B61AB1872300320509 /* FactBook.m in Sources */,
 				282103E91AB16B4E00B00198 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				282104081AB16B4E00B00198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		282104091AB16B4E00B00198 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				2821040B1AB16B4E00B00198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
