@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.facts = [[NSArray alloc] initWithObjects:
+                  @"Ants stretch when they wake up.",
+                  @"Ostriches can run faster than horses.",
+                  nil];
+    
+    self.funFactLabel.text = [self.facts objectAtIndex:0];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -25,7 +33,8 @@
 }
 
 - (IBAction)showFunFact {
-    NSLog(@"You pressed me");
+    
+    self.funFactLabel.text = [self.facts objectAtIndex:1];
 }
 
 

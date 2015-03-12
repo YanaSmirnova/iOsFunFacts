@@ -41,6 +41,9 @@
                             <constraint firstItem="0jx-IZ-E2S" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="hr7-AZ-a8Y"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="funFactLabel" destination="0jx-IZ-E2S" id="Pgl-Iu-HNh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
