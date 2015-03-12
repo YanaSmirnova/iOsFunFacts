@@ -24,4 +24,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)showFunFact {
+    NSLog(@"You pressed me");
+}
+
+
 @end
