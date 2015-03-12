@@ -15,6 +15,7 @@
 		282103F71AB16B4E00B00198 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282103F51AB16B4E00B00198 /* LaunchScreen.xib */; };
 		282104031AB16B4E00B00198 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282104021AB16B4E00B00198 /* FunFactsTests.m */; };
 		284802B61AB1872300320509 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 284802B51AB1872300320509 /* FactBook.m */; };
+		284802B91AB19B0A00320509 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 284802B81AB19B0A00320509 /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		282104021AB16B4E00B00198 /* FunFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsTests.m; sourceTree = "<group>"; };
 		284802B41AB1872300320509 /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FactBook.h; path = ../FactBook.h; sourceTree = "<group>"; };
 		284802B51AB1872300320509 /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FactBook.m; path = ../FactBook.m; sourceTree = "<group>"; };
+		284802B71AB19B0A00320509 /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		284802B81AB19B0A00320509 /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				282103EE1AB16B4E00B00198 /* ViewController.m */,
 				284802B41AB1872300320509 /* FactBook.h */,
 				284802B51AB1872300320509 /* FactBook.m */,
+				284802B71AB19B0A00320509 /* ColorWheel.h */,
+				284802B81AB19B0A00320509 /* ColorWheel.m */,
 				282103F01AB16B4E00B00198 /* Main.storyboard */,
 				282103F31AB16B4E00B00198 /* Images.xcassets */,
 				282103F51AB16B4E00B00198 /* LaunchScreen.xib */,
@@ -228,6 +233,7 @@
 				282103EC1AB16B4E00B00198 /* AppDelegate.m in Sources */,
 				284802B61AB1872300320509 /* FactBook.m in Sources */,
 				282103E91AB16B4E00B00198 /* main.m in Sources */,
+				284802B91AB19B0A00320509 /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
